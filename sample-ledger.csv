@@ -1,0 +1,7 @@
+name,owner,period,amount,relation,parent,declared_total
+Host A base day,Host A,event day,50000,additive,,104000
+Host B base day,Host B,event day,20000,additive,,
+Host A event window,Host A,7-10 PM window,15000,additive,,
+Host B event window,Host B,7-10 PM window,7000,additive,,
+Host A trunk book,Host A,event day,12000,additive,,
+Host A window stretch,Host A,7-10 PM window,18000,stretch,Host A event window,

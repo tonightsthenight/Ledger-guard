@@ -1,0 +1,12 @@
+name: ledger-guard
+version: 0.1.0
+description: Deterministic double-count and arithmetic checker for stacked sales/event goal ledgers.
+author: Ryan Camponescki
+license: MIT
+requires_hermes: ">=0.21.5"
+tags: [ledger, accounting, verification, events, sales]
+provides_tools:
+  - ledger_guard_check
+provides_hooks: []
+requires_env: []
+python_dependencies: []
